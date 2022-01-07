@@ -35,6 +35,12 @@ h3 {
 #intro {
   padding-bottom: 10rem;
 }
+#intro img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
 #intro p {
   font-size: 1rem;
   line-height: 1.5;
@@ -49,6 +55,7 @@ h3 {
   display: block;
 }
 /* end of intro */
+
 /* contact section */
 #contact {
   width: 400px;
@@ -66,7 +73,7 @@ h3 {
 nav {
   font-family: var(--mono);
   font-size: 100%;
-  padding: 1rem;
+  padding: 2rem;
 }
 nav h1 a {
   font-family: var(--sans);
@@ -155,11 +162,10 @@ footer ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
   gap: 4rem;
   padding: 0;
   margin: 1rem;
-  font-size: 300%;
+  font-size: 4rem;
 }
 footer [class*="fa-"] {
   color: var(--lemon);
