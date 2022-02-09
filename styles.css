@@ -37,6 +37,10 @@ img {
   width: 100%;
 }
 /* background colors and gradients */
+#nav--gradient {
+  position: sticky;
+  top: 5rem;
+}
 .gradient {
   background: rgb(231, 55, 147);
   background: linear-gradient(
