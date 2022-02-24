@@ -63,7 +63,13 @@ img {
 nav {
   font-family: var(--mono);
   font-size: 100%;
-  background: var(--purple);
+  background: rgb(145, 38, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(145, 38, 139, 1) 0%,
+    rgba(108, 77, 170, 1) 67%,
+    rgba(108, 77, 170, 1) 100%
+  );
   padding: 1rem;
   height: var(--nav-height);
   position: sticky;
