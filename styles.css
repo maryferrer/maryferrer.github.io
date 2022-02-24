@@ -342,3 +342,48 @@ footer p {
   padding-bottom: 3rem;
   margin: 0 auto;
 }
+/* end of footer */
+
+/* about page */
+#about {
+  max-width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 1rem 0 1.8rem 0;
+}
+#about p {
+  margin: 1rem 0 2rem 0;
+  line-height: 2rem;
+}
+#hobbies {
+  margin-bottom: 2.5rem;
+}
+#hobbies h2 {
+  margin: 1.5rem auto 1rem auto;
+  text-align: center;
+}
+#hobbies ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0;
+}
+#hobbies li {
+  background-color: var(--purple);
+  color: white;
+  border-radius: 5px;
+  height: 4rem;
+  width: 20rem;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  font-size: 1.2rem;
+  align-items: baseline;
+}
+#hobbies li:hover {
+  color: var(--lemon);
+  transition: all 0.5s ease;
+  transform: scale(1.02);
+}
+/* end of about page */
