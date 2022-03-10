@@ -75,7 +75,6 @@ nav {
   );
   padding: 1rem;
   height: var(--nav-height);
-  /* width: 100%; */
   position: sticky;
   top: 0;
 }
@@ -88,7 +87,7 @@ nav ul {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 0;
   margin: 0;
 }
@@ -98,7 +97,7 @@ nav li:first-child {
   margin-right: auto;
 }
 nav [class*="fa-"] {
-  font-size: 100%;
+  font-size: 2rem;
   color: var(--lemon);
 }
 nav h1 [class*="fa-"] {
@@ -111,7 +110,7 @@ nav a {
 }
 nav a:hover,
 nav [class*="fa-"]:hover {
-  color: var(--lightpink);
+  color: #ffd485;
 }
 .button {
   font-family: var(--mono);
@@ -122,8 +121,9 @@ nav [class*="fa-"]:hover {
   border-radius: 0.5rem;
 }
 .button:hover {
-  color: var(--white);
-  background-color: var(--lightpink);
+  color: var(--pink);
+  background-color: #ffd485;
+  box-shadow: 3px 3px 3px #ffa600;
 }
 /* end of navbar */
 
@@ -243,8 +243,8 @@ nav [class*="fa-"]:hover {
 
 /* contact section */
 #contact {
-  width: 40%;
-  margin: 1rem auto;
+  width: 400px;
+  margin: 0 auto;
   text-align: center;
   background-color: var(--black);
   padding-bottom: 1rem;
@@ -253,6 +253,9 @@ nav [class*="fa-"]:hover {
   line-height: 2rem;
   padding-bottom: 1rem;
   font-family: var(--sans);
+}
+#contact h2 {
+  margin: 0;
 }
 /* end of contact section */
 
@@ -337,6 +340,7 @@ footer p {
 }
 /* end of about page */
 
+/* Media */
 @media screen and (max-width: 500px) {
   nav {
     font-size: 48%;
@@ -498,3 +502,4 @@ footer p {
     padding-bottom: 1rem;
   }
 }
+/* Media */
