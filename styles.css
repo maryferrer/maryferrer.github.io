@@ -258,36 +258,43 @@ nav [class*="fa-"]:hover {
 footer {
   background-color: var(--purple);
   margin-top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(145, 38, 139, 1) 0%,
+    rgba(108, 77, 170, 1) 67%,
+    rgba(108, 77, 170, 1) 100%
+  );
 }
 footer h2 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  padding-top: 3rem;
-  font-size: 1.4rem;
+  padding-top: 1rem;
+  font-size: 1rem;
 }
 footer ul {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 4rem;
+  gap: 1rem;
   padding: 0;
-  margin: 1rem;
-  font-size: 4rem;
+  margin: 0rem;
+  font-size: 3rem;
 }
 footer [class*="fa-"] {
   color: var(--lemon);
 }
 footer [class*="fa-"]:hover {
-  color: var(--lightpink);
+  color: #ffdea0;
 }
 footer p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   margin: 0 auto;
+  font-size: 1rem;
 }
 /* end of footer */
 
