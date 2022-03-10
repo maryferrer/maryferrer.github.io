@@ -141,22 +141,24 @@ nav [class*="fa-"]:hover {
 #intro img {
   border: 3px solid white;
   border-radius: 200px;
+  margin: 0;
 }
 .img--container {
-  max-width: 20rem;
+  max-width: 16rem;
 }
 #intro p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: var(--mono);
+  margin: 0.5rem;
 }
 #intro span {
-  font-family: var(--sans);
-  font-size: 4rem;
-  color: var(--lemon);
+  font-family: var(--mono);
+  font-size: 3rem;
+  color: white;
   text-align: center;
 }
 #intro a {
-  margin-top: 1;
+  margin-top: 0.5rem;
 }
 /* end of intro */
 
