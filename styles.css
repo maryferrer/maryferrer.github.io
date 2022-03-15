@@ -175,7 +175,7 @@ nav [class*="fa-"]:hover {
   color: var(--white);
 }
 #projects a:hover {
-  color: var(--lightpink);
+  color: #ffd485;
 }
 #projects h4 {
   font-size: 1rem;
@@ -343,7 +343,7 @@ footer p {
   }
 }
 @media (max-width: 780px) {
-  span {
+  .nav-span {
     display: none;
   }
   nav {
@@ -368,7 +368,6 @@ footer p {
     font-size: 1.4rem;
     color: var(--lemon);
   }
-
   #about,
   #hobbies {
     max-width: 85%;
@@ -420,7 +419,8 @@ footer p {
   }
   #projects ul {
     flex-flow: row nowrap;
-    gap: 0.7rem;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
   }
   .projectbox {
     background-color: var(--purple);
