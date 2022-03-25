@@ -113,11 +113,11 @@ nav [class*="fa-"]:hover {
   color: #ffd485;
 }
 .button {
-  font-family: var(--mono);
+  font-family: var(--sans);
   text-decoration: none;
   color: var(--white);
   background-color: var(--pink);
-  padding: 0.5rem;
+  padding: 0.3rem 0.4rem 0.4rem 0.4rem;
   border-radius: 0.5rem;
 }
 .button:hover {
@@ -148,7 +148,7 @@ nav [class*="fa-"]:hover {
 }
 #intro p {
   font-size: 1rem;
-  font-family: var(--mono);
+  font-family: var(--sans);
   margin: 0.5rem;
 }
 #intro span {
@@ -164,11 +164,10 @@ nav [class*="fa-"]:hover {
 
 /* projects section */
 #projects {
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 #projects h2 {
   font-size: 2.5rem;
-  margin-bottom: calc(2.5rem * 1.5);
   text-align: center;
 }
 #projects a {
@@ -179,7 +178,7 @@ nav [class*="fa-"]:hover {
 }
 #projects h4 {
   font-size: 1rem;
-  font-family: var(--mono);
+  font-family: var(--sans);
   margin: 0;
 }
 .projectbox {
@@ -189,7 +188,7 @@ nav [class*="fa-"]:hover {
   color: var(--white);
   font-size: 1rem;
   line-height: 1.5;
-  font-family: var(--mono);
+  font-family: var(--sans);
 }
 #projects ul {
   list-style-type: none;
@@ -238,6 +237,11 @@ nav [class*="fa-"]:hover {
   #projects .reverse ul {
     justify-content: flex-start;
   }
+  #projects .projects__description {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+  }
 }
 /* end of projects section */
 
@@ -250,7 +254,8 @@ nav [class*="fa-"]:hover {
   padding-bottom: 1rem;
 }
 #contact p {
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   padding-bottom: 1rem;
   font-family: var(--sans);
 }
@@ -306,7 +311,7 @@ footer p {
 /* about page */
 #about,
 #hobbies {
-  margin: 3rem auto 3rem auto;
+  margin: 1rem auto 2rem auto;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -318,11 +323,11 @@ footer p {
   font-size: 3rem;
 }
 #about p {
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 1rem 0;
   line-height: 2rem;
 }
 #about--button {
-  width: 12rem;
+  width: 9rem;
   text-align: center;
   margin: 0 auto 0 auto;
 }
