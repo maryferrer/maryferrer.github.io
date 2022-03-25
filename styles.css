@@ -254,7 +254,7 @@ nav [class*="fa-"]:hover {
   padding-bottom: 1rem;
 }
 #contact p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   padding-bottom: 1rem;
   font-family: var(--sans);
