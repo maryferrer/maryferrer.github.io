@@ -103,6 +103,7 @@ nav [class*="fa-"] {
 nav h1 [class*="fa-"] {
   font-size: 100%;
   color: var(--lemon);
+  margin-top: 0.2rem;
 }
 nav a {
   color: var(--white);
