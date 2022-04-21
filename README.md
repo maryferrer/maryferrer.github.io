@@ -1,2 +1,2 @@
-# maryferrer.github.io
-Mary Ferrer's website on GitHub. Check out my current projects and let me know what you think!
+# My first portfolio website.
+Mary Ferrer's website V1 on GitHub. Check out my current projects and let me know what you think! Built with HTML and CSS.
